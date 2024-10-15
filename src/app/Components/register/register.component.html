@@ -1,0 +1,81 @@
+<div class="container">
+    <h2 class="text-center text-dark mt-5">Registration Form</h2>
+
+    <div class="row">
+        <div class="col-sm-2 col-md-3"></div>
+        <div class="col-sm-8 col-md-6 bg-light p-4 rounded shadow" style="margin-bottom: 60px;">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="un" class="form-label">User Name</label>
+                    <input type="text" class="form-control" id="un" formControlName="username">
+                    <div *ngIf="submitted && formControls['username'].errors" class="text-danger">
+                        Username is required.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="pw" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="pw" formControlName="password">
+                    <div *ngIf="submitted && formControls['password'].errors" class="text-danger">
+                        Password is required.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="dob" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob" formControlName="dob">
+                    <div *ngIf="submitted && formControls['dob'].errors" class="text-danger">
+                        Date of Birth is required.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="em" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="em" formControlName="email">
+                    <div *ngIf="submitted && formControls['email'].errors" class="text-danger">
+                        Valid email is required.
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-success d-block mx-auto m-4">Register</button>
+            </form>
+        </div>
+        <div class="col-sm-2 col-md-3"></div>
+    </div>
+
+    <!-- Registered Users Table -->
+    <div *ngIf="registeredUsers.length > 0" class="row mt-5">
+        <div class="col-sm-2 col-md-3"></div>
+        <div class="col-sm-8 col-md-6 bg-light p-4 rounded shadow" style="margin-bottom: 100px;">
+            <h3 class="text-center mb-4">List Of Registered Users</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of registeredUsers; let i = index">
+                        <td>{{ i + 1 }}</td>
+                        <td>{{ user.username }}</td>
+                        <td>{{ maskPassword(user.password) }}</td>
+                        <!-- <td>{{ user.password }}</td> -->
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.dob | date }}</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm" (click)="deleteUser(i)">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-2 col-md-3"></div>
+    </div>
+</div>

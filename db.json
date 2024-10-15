@@ -1,0 +1,158 @@
+{
+  "mobiles": [
+    {
+      "productTitle": "qwert  fghj",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet dolor iusto",
+      "id": "3",
+      "productImage": "https://5.imimg.com/data5/AW/IX/GLADMIN-53160395/galaxy-s-500x500.png"
+    },
+    {
+      "id": "7234",
+      "productTitle": "Redmi",
+      "productImage": "https://m.media-amazon.com/images/I/61GQAkqz0iL._AC_UF1000,1000_QL80_.jpg",
+      "description": "iqoo9 providing best facilities and experience to the user"
+    },
+    {
+      "id": "26da",
+      "productTitle": "Samsung ",
+      "productImage": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elbgins/gallery/in-galaxy-a55-5g-sm-a556-498926-sm-a556elbgins-thumb-540255019",
+      "description": "wqertyui"
+    }
+  ],
+  "bikes": [
+    {
+      "productTitle": "Yamaha R1",
+      "description": "A high-performance bike designed for the track and street, combining speed and style.",
+      "productImage": "https://media.gettyimages.com/id/604367974/photo/tough-guy.jpg?s=612x612&w=0&k=20&c=yVvA8Pl1E1DlrWz-Iq5axjGNzLcCzn9Yg6g7YkGvAsI=",
+      "id": "5fda"
+    },
+    {
+      "productTitle": "Honda CBR600RR",
+      "description": "A lightweight, super-sport motorcycle that excels on both the road and the track.",
+      "productImage": "https://media.gettyimages.com/id/2028799721/photo/phillip-island-australia-khairul-idham-bin-pawi-of-mas-on-the-petronas-mie-racing-honda-honda.jpg?s=612x612&w=0&k=20&c=G3qHVk26HElIsZSnlKiGKFGcR_0aioc3lpLRRJoGzNg=",
+      "id": "75f9"
+    },
+    {
+      "productTitle": "Ducati Panigale",
+      "description": "An Italian masterpiece offering cutting-edge technology and exceptional power.",
+      "productImage": "https://media.gettyimages.com/id/458631099/photo/ducati-monster.jpg?s=612x612&w=0&k=20&c=040-eZeIy3ycamZmz1grbEdl4ijRoOIJ9nsQGkaDlxI=",
+      "id": "66c6"
+    },
+    {
+      "productTitle": "Harley-Davidson Sportster",
+      "description": "A classic cruiser with a powerful engine and iconic styling for long rides.",
+      "productImage": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/145595/sportster-s-right-side-view-2.png?isig=0&q=80&wm=3",
+      "id": "150f"
+    },
+    {
+      "productTitle": "Kawasaki Ninja H2",
+      "description": "A supercharged hyper-sport bike that delivers unparalleled acceleration and performance.",
+      "productImage": "https://media.gettyimages.com/id/1194368194/photo/kawasaki-ninja-h2.jpg?s=612x612&w=0&k=20&c=EEWGEUjvbsbHS7Ifv6SD7cBIVJysXqgjEJOzAr8IH9A=",
+      "id": "89ae"
+    },
+    {
+      "productTitle": "BMW S1000RR",
+      "description": "A superbike with advanced technology and incredible speed, perfect for the ultimate riding experience.",
+      "productImage": "https://media.gettyimages.com/id/596318410/photo/bmw-s1000rr.jpg?s=612x612&w=0&k=20&c=HWe7GDE4sCh52lIbx96P1kbPQXBvHlhPEMlKN9bATlE=",
+      "id": "97ae"
+    },
+    {
+      "id": "9bb8",
+      "productTitle": "Bullet",
+      "productImage": "https://images.pexels.com/photos/17282772/pexels-photo-17282772.jpeg?cs=srgb&dl=pexels-subhrovision-17282772.jpg&fm=jpg",
+      "description": "goes like bullet"
+    },
+    {
+      "id": "3469",
+      "productTitle": "RE Himalayan 450",
+      "productImage": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/himalayan/colors/studio-shots/webp/kamet-white/kamet_white_000.webp",
+      "description": "Hari babus bike"
+    },
+    {
+      "id": "cb08",
+      "productTitle": "yamaha",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYOw942sBn77nRT4xIheIzULZ7mH_Kdkh8cw&s",
+      "description": "qwertyuiop"
+    },
+    {
+      "id": "cb41",
+      "productTitle": "scooty",
+      "productImage": "https://static.india.com/wp-content/uploads/2023/04/Hero-Pleasure.jpg?impolicy=Medium_Widthonly&w=400&h=800",
+      "description": "saifs scooty"
+    },
+    {
+      "id": "f5ab",
+      "productTitle": "Royal Enfield Bullet 350",
+      "productImage": "https://centralization-images.s3.ap-south-1.amazonaws.com/5_Honda_CB_350_b620628342.png",
+      "description": "bullet"
+    },
+    {
+      "id": "b74e",
+      "productTitle": "Royal Enfield Bullet 350",
+      "productImage": "https://centralization-images.s3.ap-south-1.amazonaws.com/5_Honda_CB_350_b620628342.png",
+      "description": "modern bullet"
+    },
+    {
+      "id": "1112",
+      "productTitle": "q",
+      "productImage": "q",
+      "description": "q"
+    }
+  ],
+  "televisions": [
+    {
+      "productTitle": "Samsung QLED 8K",
+      "description": "Experience stunning clarity with 8K resolution and quantum dot technology for vibrant colors.",
+      "productImage": "https://media.gettyimages.com/id/1473244634/vector/screen-with-starry-sky-display.jpg?s=612x612&w=0&k=20&c=NAjo_wPArzVHV5e03LFfSwd1V3fShKjzCP0H4Bq_AoM=",
+      "id": "c251"
+    },
+    {
+      "productTitle": "LG OLED CX",
+      "description": "Enjoy perfect blacks and infinite contrast with this OLED TV, ideal for home theater enthusiasts.",
+      "productImage": "https://media.gettyimages.com/id/1213335670/photo/lg-oled-cx-series-tv.jpg?s=612x612&w=0&k=20&c=4-Ghs1FfXoAEcnDF5dX1czrY55bm-8kE-3wOYDFXo14=",
+      "id": "306c"
+    },
+    {
+      "productTitle": "Sony Bravia X900H",
+      "description": "A 4K LED TV with advanced image processing for superior detail and motion clarity.",
+      "productImage": "https://media.gettyimages.com/id/1212457715/photo/sony-bravia-x900h-4k-tv.jpg?s=612x612&w=0&k=20&c=ZlWytflLvYcVeqYFOCQI_tkcFDRYDBOibU0zF3yZ1aM=",
+      "id": "9282"
+    },
+    {
+      "productTitle": "TCL 6-Series Roku TV",
+      "description": "A budget-friendly 4K TV with Dolby Vision HDR and an easy-to-use Roku interface.",
+      "productImage": "https://media.gettyimages.com/id/1171534268/photo/tcl-6-series-4k-roku-tv.jpg?s=612x612&w=0&k=20&c=cz-sZBzyl3a2WqxapRHc_xPtMZ6rCUaHHeNwYJMgYvI=",
+      "id": "b8b8"
+    },
+    {
+      "productTitle": "Vizio P-Series Quantum",
+      "description": "A 4K HDR TV with powerful brightness and color performance, perfect for gaming and movies.",
+      "productImage": "https://media.gettyimages.com/id/1212457715/photo/vizio-p-series-quantum-tv.jpg?s=612x612&w=0&k=20&c=UkgN0jguZzErLQm5j0YP5PZBIZTfqvEk7XYYMlnmOHs=",
+      "id": "1bb3"
+    },
+    {
+      "productTitle": "Hisense H9G Quantum",
+      "description": "Offers exceptional value with its high peak brightness and vivid color reproduction in 4K.",
+      "productImage": "https://media.gettyimages.com/id/1214118590/photo/hisense-h9g-quantum-4k-tv.jpg?s=612x612&w=0&k=20&c=xD99NhvVw5QWx-vGfRRvuwmM11UuDjPmLPq4NT8UrS4=",
+      "id": "eb03"
+    },
+    {
+      "id": "c36f",
+      "productTitle": "Lg",
+      "productImage": "",
+      "description": ""
+    },
+    {
+      "id": "19ae",
+      "productTitle": "mmmmm",
+      "productImage": "sd",
+      "description": "h"
+    },
+    {
+      "id": "a726",
+      "productTitle": "q",
+      "productImage": "q",
+      "description": "q"
+    }
+  ]
+}
